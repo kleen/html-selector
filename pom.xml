@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.tssup.selector</groupId>
-  <artifactId>tssup-base-selector</artifactId>
+  <artifactId>html-selector</artifactId>
   <version>1.0.0-RELEASE</version>
   <packaging>jar</packaging>
 
-  <name>tssup-base-selector</name>
+  <name>html-selector</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -75,6 +75,12 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <build>
@@ -94,18 +100,18 @@
       </plugins>
   </build>
 
-  <!--发布-->
+  <!--发布 个人私库-->
   <distributionManagement>
     <repository>
       <id>private-nexus-library-releases</id>
       <name>private-nexus-library-releases</name>
-      <url>http://120.236.170.149:8081/nexus/content/repositories/releases/</url>
+      <url>http://127.0.0.1:8081/nexus/content/repositories/releases/</url>
     </repository>
 
     <snapshotRepository>
       <id>private-nexus-library-snapshots</id>
       <name>private-nexus-library-snapshots</name>
-      <url>http://120.236.170.149:8081/nexus/content/repositories/snapshots/</url>
+      <url>http://127.0.0.1:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
@@ -113,7 +119,7 @@
     <pluginRepository>
       <id>Public</id>
       <name>Public Repositories</name>
-      <url>http://120.236.170.149:8081/nexus/content/groups/public/</url>
+      <url>http://127.0.0.1:8081/nexus/content/groups/public/</url>
     </pluginRepository>
   </pluginRepositories>
 
@@ -124,7 +130,7 @@
       </snapshots>
       <id>Public</id>
       <name>Public Repositories</name>
-      <url>http://120.236.170.149:8081/nexus/content/groups/public/</url>
+      <url>http://127.0.0.1:8081/nexus/content/groups/public/</url>
     </repository>
   </repositories>
 
