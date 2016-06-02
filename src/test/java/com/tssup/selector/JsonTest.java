@@ -6,8 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 /**
- * @author code4crafter@gmai.com
- * @since 0.5.0
+ * @author kleen888@gmai.com
  */
 public class JsonTest {
 

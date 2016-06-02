@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static com.tssup.selector.Selectors.*;
 
 /**
- * @author code4crafter@gmail.com <br>
+ * @author kleen888@gmail.com <br>
  */
 public class ExtractorsTest {
 

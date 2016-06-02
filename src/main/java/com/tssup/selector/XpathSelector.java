@@ -11,7 +11,7 @@ import java.util.List;
  * XPath selector based on Xsoup.<br>
  *
  * @author kleen888@gmail.com <br>
- * @since 0.3.0
+ * @since 0.1.0
  */
 public class XpathSelector extends BaseElementSelector {
 
