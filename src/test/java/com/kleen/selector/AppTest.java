@@ -1,4 +1,4 @@
-package com.tssup.selector;
+package com.kleen.selector;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

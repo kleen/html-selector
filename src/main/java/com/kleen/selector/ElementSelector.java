@@ -1,30 +1,32 @@
-package com.tssup.selector;
+package com.kleen.selector;
+
+import org.jsoup.nodes.Element;
 
 import java.util.List;
 
 /**
- * Selector(extractor) for text.<br>
+ * Selector(extractor) for html elements.<br>
  *
  * @author kleen888@gmail.com <br>
- * @since 0.1.0
+ * @since 0.3.0
  */
-public interface Selector {
+public interface ElementSelector {
 
     /**
      * Extract single result in text.<br>
      * If there are more than one result, only the first will be chosen.
      *
-     * @param text
+     * @param element
      * @return result
      */
-    public String select(String text);
+    public String select(Element element);
 
     /**
      * Extract all results in text.<br>
      *
-     * @param text
+     * @param element
      * @return results
      */
-    public List<String> selectList(String text);
+    public List<String> selectList(Element element);
 
 }

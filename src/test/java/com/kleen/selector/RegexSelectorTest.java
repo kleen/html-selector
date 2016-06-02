@@ -1,4 +1,4 @@
-package com.tssup.selector;
+package com.kleen.selector;
 
 import org.assertj.core.api.Assertions;
 import org.junit.Test;

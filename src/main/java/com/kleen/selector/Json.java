@@ -1,4 +1,4 @@
-package com.tssup.selector;
+package com.kleen.selector;
 
 import com.alibaba.fastjson.JSON;
 

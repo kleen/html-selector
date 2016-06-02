@@ -1,4 +1,4 @@
-package com.tssup.selector;
+package com.kleen.selector;
 
 /**
  * Convenient methods for selectors.<br>

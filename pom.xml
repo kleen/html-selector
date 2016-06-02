@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.tssup.selector</groupId>
+  <groupId>com.kleen.selector</groupId>
   <artifactId>html-selector</artifactId>
   <version>1.0.0-RELEASE</version>
   <packaging>jar</packaging>
@@ -13,7 +13,8 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <jdk.version>1.8</jdk.version>
-
+    <org.jsoup>1.8.3</org.jsoup>
+    <log4j>1.2.17</log4j>
   </properties>
 
   <dependencies>
@@ -21,13 +22,13 @@
     <dependency>
       <groupId>org.jsoup</groupId>
       <artifactId>jsoup</artifactId>
-      <version>1.8.3</version>
+      <version>${org.jsoup}</version>
     </dependency>
 
     <dependency>
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
-      <version>1.2.17</version>
+      <version>${log4j}</version>
     </dependency>
 
 
